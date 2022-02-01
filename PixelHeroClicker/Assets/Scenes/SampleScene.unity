@@ -215,6 +215,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1268933984}
+  - component: {fileID: 1268933986}
+  - component: {fileID: 1268933985}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -237,6 +239,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268933985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268933983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a425a8c9a9be0409862a4226deba9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarSprites: []
+  enemy: {fileID: 0}
+--- !u!114 &1268933986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268933983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a479e566c334eb4bb3f1096e96610e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 0
 --- !u!1 &1448445040
 GameObject:
   m_ObjectHideFlags: 0
