@@ -43,16 +43,8 @@ public class HealthBarVisual : MonoBehaviour
                 break;
             case 0:
                 healthBarSprites[5].SetActive(true);
-                healthBarSprites[4].SetActive(false);
-                EnemyDie();
+                healthBarSprites[4].SetActive(false);           
                 break;
         }
-    }
-    private void EnemyDie()
-    {
-        if (enemy.EnemyHealth == 0)
-        {
-            Destroy(this.gameObject);
-        }
-    }
+    }   
 }
